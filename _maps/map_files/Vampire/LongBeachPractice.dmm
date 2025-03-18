@@ -1406,11 +1406,14 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/vtr/masquerade/exterior/northwest/northwest_long_beach)
 "bDW" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/condiment/vampiremilk,
 /obj/item/storage/fancy/egg_box,
 /obj/machinery/light/prince{
 	pixel_y = 32
+	},
+/obj/structure/closet/crate/freezer/fridge{
+	pixel_x = 0;
+	pixel_y = 7
 	},
 /turf/open/floor/plating/circled,
 /area/vtm/vtr/masquerade/interior/northeast/well_off_house)
@@ -2012,9 +2015,6 @@
 /obj/structure/railing,
 /turf/open/openspace,
 /area/vtm/vtr/elysium/interior/central/castle_elysium)
-"cjh" = (
-/turf/open/floor/plating/sidewalkalt,
-/area/vtm/vtr/masquerade/exterior/northeast/northeast_long_beach)
 "cjD" = (
 /obj/structure/stairs/north{
 	dir = 8
@@ -4215,9 +4215,12 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/vtr/masquerade/exterior/northwest/northwest_long_beach)
 "ezQ" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/condiment/vampiremilk,
 /obj/item/storage/fancy/egg_box,
+/obj/structure/closet/crate/freezer/fridge{
+	pixel_x = 0;
+	pixel_y = 7
+	},
 /turf/open/floor/plating/toilet,
 /area/vtm/vtr/masquerade/interior/northeast/rental_house)
 "eAc" = (
@@ -6544,9 +6547,12 @@
 /turf/open/floor/carpet/blue,
 /area/vtm/vtr/masquerade/interior/central/castle_lobby)
 "gVU" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/condiment/vampiremilk,
 /obj/item/storage/fancy/egg_box,
+/obj/structure/closet/crate/freezer/fridge{
+	pixel_x = 0;
+	pixel_y = 7
+	},
 /turf/open/floor/sepia,
 /area/vtm/vtr/masquerade/interior/northeast/bright_house)
 "gWC" = (
@@ -6853,11 +6859,14 @@
 /turf/open/floor/plating/vampplating,
 /area/vtm/vtr/masquerade/interior/northwest/police_station)
 "hjV" = (
-/obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/reagent_containers/food/condiment/vampiremilk,
 /obj/item/storage/fancy/egg_box,
 /obj/machinery/light/prince{
 	pixel_y = 32
+	},
+/obj/structure/closet/crate/freezer/fridge{
+	pixel_x = 0;
+	pixel_y = 7
 	},
 /turf/open/floor/plating/toilet,
 /area/vtm/vtr/masquerade/interior/northeast/old_house)
@@ -7957,8 +7966,8 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/vtr/masquerade/interior/central/nightclub)
 "iwz" = (
-/obj/structure/vampdoor/simple,
 /obj/effect/turf_decal/siding/wood,
+/obj/structure/vampdoor/simple,
 /turf/open/floor/plating/parquetry,
 /area/vtm/vtr/masquerade/interior/southwest/clinic)
 "iwA" = (
@@ -9436,7 +9445,7 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/vtr/masquerade/interior/northwest/gym)
 "kij" = (
-/obj/structure/chair/wood/wings{
+/obj/structure/chair/greyscale{
 	dir = 1
 	},
 /turf/open/floor/plating/vampplating/stone,
@@ -14552,6 +14561,9 @@
 /obj/structure/vampdoor/glass{
 	dir = 4
 	},
+/obj/effect/decal/bordur{
+	dir = 8
+	},
 /turf/open/floor/plating/circled,
 /area/vtm/vtr/masquerade/interior/northwest/gas_station)
 "pDc" = (
@@ -15330,12 +15342,8 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/vtr/masquerade/interior/northwest/clothing_store)
 "quj" = (
-/obj/machinery/light{
-	pixel_y = 32
-	},
-/obj/structure/bookcase/random/fiction,
-/turf/open/floor/plating/parquetry/old,
-/area/vtm/vtr/masquerade/interior/central/library)
+/turf/open/floor/plating/sidewalkalt,
+/area/vtm/vtr/masquerade/exterior/southwest/southwest_long_beach)
 "qvM" = (
 /obj/structure/railing{
 	dir = 4
@@ -16136,6 +16144,9 @@
 	},
 /turf/open/floor/plating/church,
 /area/vtm/vtr/elysium/interior/central/castle_theater)
+"rnp" = (
+/turf/open/floor/plating/sidewalkalt,
+/area/vtm/vtr/masquerade/exterior/northeast/northeast_long_beach)
 "rnu" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -16341,6 +16352,9 @@
 	},
 /turf/open/floor/carpet,
 /area/vtm/vtr/masquerade/interior/southeast/queen_lilith)
+"ruC" = (
+/turf/open/floor/plating/sidewalkalt,
+/area/vtm/vtr/masquerade/exterior/northwest/northwest_long_beach)
 "ruS" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/baalirune,
@@ -16706,9 +16720,6 @@
 	},
 /turf/open/floor/carpet/blue,
 /area/vtm/vtr/elysium/interior/central/castle_elysium)
-"rKX" = (
-/turf/open/floor/plating/sidewalkalt,
-/area/vtm/vtr/masquerade/exterior/northwest/northwest_long_beach)
 "rLf" = (
 /obj/effect/turf_decal/siding/wideplating{
 	dir = 6
@@ -20180,9 +20191,6 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/plating/vampplating,
 /area/vtm/vtr/masquerade/interior/southwest/clinic)
-"vef" = (
-/turf/open/floor/plating/sidewalkalt,
-/area/vtm/vtr/masquerade/exterior/southwest/southwest_long_beach)
 "veJ" = (
 /obj/machinery/light{
 	pixel_y = 32
@@ -22148,9 +22156,15 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/vtr/elysium/interior/central/nightclub_elysium)
+"xfa" = (
+/obj/structure/bookcase/random/fiction,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/vtr/masquerade/interior/central/library)
 "xfy" = (
-/obj/structure/chair/wood/wings{
-	dir = 8
+/obj/structure/chair/greyscale{
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = 5
 	},
 /turf/open/floor/plating/vampplating/stone,
 /area/vtm/vtr/masquerade/interior/southwest/clinic)
@@ -107490,7 +107504,7 @@ mVd
 gzr
 gzr
 fhz
-quj
+cKl
 iGL
 iGL
 iGL
@@ -107747,7 +107761,7 @@ gzr
 gzr
 sgT
 fhz
-iGL
+xfa
 iGL
 iGL
 wed
@@ -163258,7 +163272,7 @@ fTs
 fTs
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -163298,22 +163312,22 @@ eqz
 uXM
 buC
 buC
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
-vef
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
+quj
 buC
 buC
 buC
@@ -163515,7 +163529,7 @@ odA
 odA
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -163555,7 +163569,7 @@ pPw
 sam
 buC
 buC
-vef
+quj
 buC
 buC
 buC
@@ -163772,7 +163786,7 @@ bvb
 odA
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -163812,7 +163826,7 @@ pPw
 sam
 buC
 buC
-vef
+quj
 buC
 buC
 buC
@@ -164029,7 +164043,7 @@ bvb
 aLU
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -164069,7 +164083,7 @@ pPw
 sam
 buC
 buC
-vef
+quj
 buC
 buC
 buC
@@ -164286,7 +164300,7 @@ riu
 odA
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -164326,7 +164340,7 @@ pPw
 sam
 buC
 buC
-vef
+quj
 buC
 buC
 buC
@@ -164543,7 +164557,7 @@ odA
 odA
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -164583,7 +164597,7 @@ pPw
 sam
 buC
 buC
-vef
+quj
 buC
 buC
 buC
@@ -164800,7 +164814,7 @@ riu
 odA
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -164840,7 +164854,7 @@ pPw
 sam
 buC
 buC
-vef
+quj
 buC
 buC
 buC
@@ -165057,7 +165071,7 @@ ilm
 odA
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -165097,7 +165111,7 @@ pPw
 sam
 buC
 buC
-vef
+quj
 buC
 buC
 buC
@@ -165314,7 +165328,7 @@ riu
 odA
 fTs
 fTs
-rKX
+ruC
 fTs
 fTs
 fTs
@@ -166865,11 +166879,11 @@ bDO
 bDO
 bDO
 udg
-rKX
-rKX
-rKX
-rKX
-rKX
+ruC
+ruC
+ruC
+ruC
+ruC
 buC
 buC
 buC
@@ -194362,13 +194376,13 @@ bAz
 bAz
 bAz
 bAz
-cjh
-cjh
-cjh
-cjh
-cjh
-cjh
-cjh
+rnp
+rnp
+rnp
+rnp
+rnp
+rnp
+rnp
 aLk
 aLk
 aLk
