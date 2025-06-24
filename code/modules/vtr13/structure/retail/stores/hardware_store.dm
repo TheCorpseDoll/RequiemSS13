@@ -6,6 +6,7 @@
 		new /datum/data/retail_product("flashlight",		/obj/item/flashlight,	20),
 		new /datum/data/retail_product("lockpick",	/obj/item/vamp/keys/hack, 50),
 		new /datum/data/retail_product("respirator",	/obj/item/clothing/mask/vampire,	35),
+		new /datum/data/retail_product("Spray Paint",		/obj/item/toy/crayon/spraycan,		25),
 		new /datum/data/retail_product("Burlap Sack", /obj/item/grave_soil/bag, 300),
 		new /datum/data/retail_product("fishing rod",		/obj/item/fishing_rod,	200),
 		new /datum/data/retail_product("stake",	/obj/item/vampire_stake,	100),

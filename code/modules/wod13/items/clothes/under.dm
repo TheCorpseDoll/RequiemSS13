@@ -238,7 +238,7 @@
 
 /obj/item/clothing/under/vampire/police
 	name = "police officer uniform"
-	desc = "The clothes of the boys in blue. Did you know that 44% of Cops have heard of Pentex? Google 44% of Cops for more information."
+	desc = "The clothes of the boys in blue."
 	icon_state = "police"
 
 /obj/item/clothing/under/vampire/guard
