@@ -12132,11 +12132,14 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/vtr/masquerade/interior/ground_floor/northwest/flower_store)
 "kcD" = (
-/obj/machinery/light/prince{
-	dir = 8
+/obj/structure/fence{
+	pixel_x = -14;
+	pixel_y = 10
 	},
-/turf/open/floor/plating/vampplating/stone,
-/area/vtm/vtr/masquerade/interior/ground_floor/central/castle_lobby)
+/obj/structure/table,
+/obj/item/melee/skateboard/improvised,
+/turf/closed/wall/vampwall/old/low,
+/area/vtm/vtr/masquerade/exterior/ground_floor/northeast/northeast_long_beach)
 "kcP" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/landmark/npcwall,
@@ -14618,28 +14621,10 @@
 /area/vtm/vtr/masquerade/interior/basement/southeast/queen_lilith)
 "mmt" = (
 /obj/structure/table/wood,
-/obj/item/reagent_containers/glass/rag{
-	pixel_x = -8;
-	pixel_y = 20
-	},
-/obj/item/reagent_containers/food/drinks/mug/black{
-	pixel_x = 5;
-	pixel_y = 14
-	},
-/obj/item/reagent_containers/food/drinks/mug/black{
-	pixel_x = 5;
-	pixel_y = 7
-	},
-/obj/item/reagent_containers/food/drinks/mug/black{
-	pixel_x = 5;
-	pixel_y = 0
-	},
-/obj/item/reagent_containers/food/drinks/shaker{
-	pixel_x = 13;
-	pixel_y = 5
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/vtm/vtr/elysium/interior/floor_two/central/nightclub_elysium)
+/obj/item/vamp/keys/sworn,
+/obj/item/vamp/keys/sworn,
+/turf/open/floor/plating/parquetry/old,
+/area/vtm/vtr/masquerade/interior/basement/central/library_basement)
 "mnj" = (
 /obj/structure/chair/wood/wings{
 	dir = 4
@@ -15734,7 +15719,9 @@
 /turf/open/floor/plating/vampplating/mono,
 /area/vtm/vtr/masquerade/interior/ground_floor/central/castle_lobby)
 "net" = (
-/obj/structure/closet/cabinet,
+/obj/structure/closet/cabinet{
+	anchored = 1
+	},
 /obj/item/clothing/suit/hooded/robes/red,
 /obj/item/clothing/suit/hooded/robes/black,
 /obj/item/clothing/suit/hooded/robes,
@@ -17918,6 +17905,12 @@
 	},
 /turf/open/floor/plating/parquetry,
 /area/vtm/vtr/masquerade/interior/ground_floor/central/castle_lobby)
+"oJs" = (
+/obj/machinery/light/prince{
+	dir = 8
+	},
+/turf/open/floor/plating/vampplating/stone,
+/area/vtm/vtr/masquerade/interior/ground_floor/central/castle_lobby)
 "oJz" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -18105,12 +18098,6 @@
 /obj/effect/decal/trash,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/vtr/masquerade/interior/ground_floor/northwest/apartment)
-"oTz" = (
-/obj/structure/table/wood,
-/obj/item/vamp/keys/sworn,
-/obj/item/vamp/keys/sworn,
-/turf/open/floor/plating/parquetry/old,
-/area/vtm/vtr/masquerade/interior/basement/central/library_basement)
 "oTQ" = (
 /obj/effect/decal/wallpaper/red,
 /obj/effect/decal/wallpaper/papers/two,
@@ -18234,14 +18221,29 @@
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/vtr/masquerade/interior/floor_three/northwest/apartment)
 "oZv" = (
-/obj/structure/mirror{
-	pixel_y = 32
+/obj/structure/table/wood,
+/obj/item/reagent_containers/glass/rag{
+	pixel_x = -8;
+	pixel_y = 20
 	},
-/obj/structure/sink{
-	pixel_y = 12
+/obj/item/reagent_containers/food/drinks/mug/black{
+	pixel_x = 5;
+	pixel_y = 14
 	},
-/turf/open/floor/plating/concrete,
-/area/vtm/vtr/masquerade/interior/ground_floor/central/nightclub)
+/obj/item/reagent_containers/food/drinks/mug/black{
+	pixel_x = 5;
+	pixel_y = 7
+	},
+/obj/item/reagent_containers/food/drinks/mug/black{
+	pixel_x = 5;
+	pixel_y = 0
+	},
+/obj/item/reagent_containers/food/drinks/shaker{
+	pixel_x = 13;
+	pixel_y = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/vtm/vtr/elysium/interior/floor_two/central/nightclub_elysium)
 "oZy" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 10
@@ -21197,14 +21199,13 @@
 /turf/open/floor/plating/parquetry,
 /area/vtm/vtr/elysium/interior/ground_floor/central/castle_theater)
 "rya" = (
-/obj/structure/fence{
-	pixel_x = -14;
-	pixel_y = 10
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 10;
+	pixel_y = 0
 	},
-/obj/structure/table,
-/obj/item/melee/skateboard/improvised,
-/turf/closed/wall/vampwall/old/low,
-/area/vtm/vtr/masquerade/exterior/ground_floor/northeast/northeast_long_beach)
+/turf/open/openspace,
+/area/vtm/vtr/masquerade/exterior/floor_two/central/central_long_beach/inaccessible)
 "ryR" = (
 /obj/structure/vampdoor/old,
 /turf/open/floor/plating/vampwood,
@@ -26131,14 +26132,14 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/vtr/masquerade/exterior/ground_floor/park/shoreline_park)
 "viC" = (
-/obj/structure/fence{
-	pixel_x = 14;
-	pixel_y = 10
+/obj/structure/mirror{
+	pixel_y = 32
 	},
-/obj/structure/table,
-/obj/item/melee/skateboard/pro,
-/turf/closed/wall/vampwall/old/low,
-/area/vtm/vtr/masquerade/exterior/ground_floor/northeast/northeast_long_beach)
+/obj/structure/sink{
+	pixel_y = 12
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/vtr/masquerade/interior/ground_floor/central/nightclub)
 "vjo" = (
 /obj/structure/roofstuff/alt1,
 /turf/open/floor/plating/sidewalk/poor,
@@ -26697,13 +26698,14 @@
 	},
 /area/vtm/vtr/elysium/interior/floor_two/central/castle_elysium)
 "vIW" = (
-/obj/structure/sink{
-	dir = 8;
-	pixel_x = 10;
-	pixel_y = 0
+/obj/structure/fence{
+	pixel_x = 14;
+	pixel_y = 10
 	},
-/turf/open/openspace,
-/area/vtm/vtr/masquerade/exterior/floor_two/central/central_long_beach/inaccessible)
+/obj/structure/table,
+/obj/item/melee/skateboard/pro,
+/turf/closed/wall/vampwall/old/low,
+/area/vtm/vtr/masquerade/exterior/ground_floor/northeast/northeast_long_beach)
 "vJe" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -27937,7 +27939,9 @@
 /turf/open/floor/plating/vampwood,
 /area/vtm/vtr/masquerade/interior/ground_floor/central/nightclub)
 "wHU" = (
-/obj/machinery/roulette,
+/obj/machinery/roulette{
+	anchored = 1
+	},
 /turf/open/floor/carpet,
 /area/vtm/vtr/masquerade/interior/floor_two/southeast/queen_lilith)
 "wIg" = (
@@ -54658,7 +54662,7 @@ bCE
 bCE
 bCE
 rto
-oTz
+mmt
 cXk
 bCE
 bCE
@@ -127920,7 +127924,7 @@ sBh
 cpj
 hcV
 vis
-oZv
+viC
 eYz
 vis
 vis
@@ -128177,7 +128181,7 @@ sBh
 cpj
 hcV
 vis
-oZv
+viC
 eYz
 jOt
 tSX
@@ -128412,7 +128416,7 @@ bMP
 bMP
 qUJ
 qkp
-kcD
+oJs
 qkp
 qUJ
 yiv
@@ -128434,7 +128438,7 @@ sBh
 cpj
 hcV
 vis
-oZv
+viC
 eYz
 vis
 vis
@@ -130453,7 +130457,7 @@ nQr
 hSF
 txO
 mPQ
-rya
+kcD
 mPQ
 hZG
 kKq
@@ -135593,7 +135597,7 @@ nQr
 uCv
 mfM
 ipY
-viC
+vIW
 ipY
 rFf
 xRv
@@ -185462,7 +185466,7 @@ jMh
 jMh
 oXr
 oXr
-vIW
+rya
 oXr
 oXr
 oXr
@@ -190372,7 +190376,7 @@ oXr
 oXr
 oXr
 vRl
-mmt
+oZv
 rJO
 rJO
 rJO
